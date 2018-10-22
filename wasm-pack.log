@@ -1,0 +1,1610 @@
+Oct 18 19:05:20.638 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0507]: cannot move out of borrowed content
+  --> src/lib.rs:37:9
+   |
+37 |         self.pixels
+   |         ^^^^ cannot move out of borrowed content
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0507`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:06:12.446 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0599]: no method named `map` found for type `std::vec::Vec<u8>` in the current scope
+  --> src/lib.rs:37:34
+   |
+37 |         let pixels = self.pixels.map().collect();
+   |                                  ^^^
+   |
+   = note: the method `map` exists but the following trait bounds were not satisfied:
+           `&mut std::vec::Vec<u8> : std::iter::Iterator`
+           `&mut [u8] : std::iter::Iterator`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:07:46.245 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0599]: no method named `map` found for type `std::vec::Vec<u8>` in the current scope
+  --> src/lib.rs:37:34
+   |
+37 |         let pixels = self.pixels.map(|item| {
+   |                                  ^^^
+   |
+   = note: the method `map` exists but the following trait bounds were not satisfied:
+           `&mut std::vec::Vec<u8> : std::iter::Iterator`
+           `&mut [u8] : std::iter::Iterator`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:09:37.142 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0507]: cannot move out of borrowed content
+  --> src/lib.rs:37:9
+   |
+37 |         self.pixels
+   |         ^^^^ cannot move out of borrowed content
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0507`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:10:46.014 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0507]: cannot move out of borrowed content
+  --> src/lib.rs:37:9
+   |
+37 |         self.pixels
+   |         ^^^^ cannot move out of borrowed content
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0507`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:17:44.979 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error: expected one of `.`, `;`, `?`, or an operator, found `double_pixels`
+  --> src/lib.rs:38:9
+   |
+37 |         let double_pixels = self.pixels.clone()
+   |                                                - expected one of `.`, `;`, `?`, or an operator here
+38 |         double_pixels.map(|i|{
+   |         ^^^^^^^^^^^^^ unexpected token
+
+error[E0308]: mismatched types
+  |
+  = note: expected type `std::vec::Vec<u8>`
+             found type `()`
+
+error: aborting due to 2 previous errors
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:19:02.877 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0599]: no method named `map` found for type `std::vec::Vec<u8>` in the current scope
+  --> src/lib.rs:37:41
+   |
+37 |         let double_pixels = self.pixels.map(|i| {
+   |                                         ^^^
+   |
+   = note: the method `map` exists but the following trait bounds were not satisfied:
+           `&mut std::vec::Vec<u8> : std::iter::Iterator`
+           `&mut [u8] : std::iter::Iterator`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:19:19.344 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0599]: no method named `map` found for type `std::vec::Vec<u8>` in the current scope
+  --> src/lib.rs:37:49
+   |
+37 |         let double_pixels = self.pixels.clone().map(|i| {
+   |                                                 ^^^
+   |
+   = note: the method `map` exists but the following trait bounds were not satisfied:
+           `&mut std::vec::Vec<u8> : std::iter::Iterator`
+           `&mut [u8] : std::iter::Iterator`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:20:01.744 ERRO Compilation of your program failed. stderr:
+
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] DLL init: proxychains-ng 4.12
+error[E0599]: no method named `map` found for type `std::vec::Vec<u8>` in the current scope
+  --> src/lib.rs:37:49
+   |
+37 |         let double_pixels = self.pixels.clone().map(|i| {
+   |                                                 ^^^
+   |
+   = note: the method `map` exists but the following trait bounds were not satisfied:
+           `&mut std::vec::Vec<u8> : std::iter::Iterator`
+           `&mut [u8] : std::iter::Iterator`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:51:42.082 ERRO Compilation of your program failed. stderr:
+
+   Compiling color_quant v1.0.1
+   Compiling lzw v0.10.0
+   Compiling gif v0.10.1
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0432]: unresolved import `gif`
+ --> src/lib.rs:3:5
+  |
+3 | use gif::{Frame, Encoder, Repeat, SetParameter};
+  |     ^^^ Maybe a missing `extern crate gif;`?
+
+error[E0425]: cannot find value `pixels` in this scope
+  --> src/lib.rs:33:54
+   |
+33 |     let frame = gif::Frame::from_rgb(100, 100, &mut *pixels);
+   |                                                      ^^^^^^ not found in this scope
+
+warning: unused imports: `Repeat`, `SetParameter`
+ --> src/lib.rs:3:27
+  |
+3 | use gif::{Frame, Encoder, Repeat, SetParameter};
+  |                           ^^^^^^  ^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:6:5
+  |
+6 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+
+error[E0308]: mismatched types
+  --> src/lib.rs:41:12
+   |
+41 |     return image
+   |            ^^^^^ expected u32, found struct `std::string::String`
+   |
+   = note: expected type `u32`
+              found type `std::string::String`
+
+error: aborting due to 3 previous errors
+
+Some errors occurred: E0308, E0425, E0432.
+For more information about an error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:52:01.641 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0425]: cannot find value `pixels` in this scope
+  --> src/lib.rs:34:54
+   |
+34 |     let frame = gif::Frame::from_rgb(100, 100, &mut *pixels);
+   |                                                      ^^^^^^ not found in this scope
+
+warning: unused imports: `Repeat`, `SetParameter`
+ --> src/lib.rs:4:27
+  |
+4 | use gif::{Frame, Encoder, Repeat, SetParameter};
+  |                           ^^^^^^  ^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:7:5
+  |
+7 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+
+error[E0277]: the trait bound `std::boxed::Box<[gif::Frame<'_>]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:29:1
+   |
+29 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[gif::Frame<'_>]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<gif::Frame<'_>>`
+
+error[E0277]: the trait bound `gif::Frame<'_>: wasm_bindgen::describe::WasmDescribe` is not satisfied
+  --> src/lib.rs:29:1
+   |
+29 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::describe::WasmDescribe` is not implemented for `gif::Frame<'_>`
+   |
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::boxed::Box<[gif::Frame<'_>]>`
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::vec::Vec<gif::Frame<'_>>`
+   = note: required by `wasm_bindgen::convert::FromWasmAbi`
+
+error: aborting due to 3 previous errors
+
+Some errors occurred: E0277, E0425.
+For more information about an error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:52:56.833 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused imports: `Repeat`, `SetParameter`
+ --> src/lib.rs:6:27
+  |
+6 | use gif::{Encoder, Frame, Repeat, SetParameter};
+  |                           ^^^^^^  ^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:7:5
+  |
+7 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+
+error[E0277]: the trait bound `std::boxed::Box<[gif::Frame<'_>]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:29:1
+   |
+29 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[gif::Frame<'_>]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<gif::Frame<'_>>`
+
+error[E0277]: the trait bound `gif::Frame<'_>: wasm_bindgen::describe::WasmDescribe` is not satisfied
+  --> src/lib.rs:29:1
+   |
+29 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::describe::WasmDescribe` is not implemented for `gif::Frame<'_>`
+   |
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::boxed::Box<[gif::Frame<'_>]>`
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::vec::Vec<gif::Frame<'_>>`
+   = note: required by `wasm_bindgen::convert::FromWasmAbi`
+
+error: aborting due to 2 previous errors
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:53:15.545 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:7:5
+  |
+7 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0277]: the trait bound `std::boxed::Box<[gif::Frame<'_>]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:29:1
+   |
+29 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[gif::Frame<'_>]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<gif::Frame<'_>>`
+
+error[E0277]: the trait bound `gif::Frame<'_>: wasm_bindgen::describe::WasmDescribe` is not satisfied
+  --> src/lib.rs:29:1
+   |
+29 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::describe::WasmDescribe` is not implemented for `gif::Frame<'_>`
+   |
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::boxed::Box<[gif::Frame<'_>]>`
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::vec::Vec<gif::Frame<'_>>`
+   = note: required by `wasm_bindgen::convert::FromWasmAbi`
+
+error: aborting due to 2 previous errors
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:53:24.143 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::boxed::Box<[gif::Frame<'_>]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:28:1
+   |
+28 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[gif::Frame<'_>]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<gif::Frame<'_>>`
+
+error[E0277]: the trait bound `gif::Frame<'_>: wasm_bindgen::describe::WasmDescribe` is not satisfied
+  --> src/lib.rs:28:1
+   |
+28 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::describe::WasmDescribe` is not implemented for `gif::Frame<'_>`
+   |
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::boxed::Box<[gif::Frame<'_>]>`
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::vec::Vec<gif::Frame<'_>>`
+   = note: required by `wasm_bindgen::convert::FromWasmAbi`
+
+error: aborting due to 2 previous errors
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:56:04.693 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::boxed::Box<[gif::Frame<'_>]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:21:1
+   |
+21 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[gif::Frame<'_>]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<gif::Frame<'_>>`
+
+error[E0277]: the trait bound `gif::Frame<'_>: wasm_bindgen::describe::WasmDescribe` is not satisfied
+  --> src/lib.rs:21:1
+   |
+21 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::describe::WasmDescribe` is not implemented for `gif::Frame<'_>`
+   |
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::boxed::Box<[gif::Frame<'_>]>`
+   = note: required because of the requirements on the impl of `wasm_bindgen::describe::WasmDescribe` for `std::vec::Vec<gif::Frame<'_>>`
+   = note: required by `wasm_bindgen::convert::FromWasmAbi`
+
+error: aborting due to 2 previous errors
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 19:58:57.620 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::boxed::Box<[Frame]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:28:1
+   |
+28 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[Frame]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<Frame>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 20:11:02.328 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::boxed::Box<[Frame]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:40:1
+   |
+40 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[Frame]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<Frame>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 20:12:07.274 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::boxed::Box<[Frame]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:40:1
+   |
+40 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[Frame]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<Frame>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 20:12:15.096 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `gif::Encoder`
+ --> src/lib.rs:6:5
+  |
+6 | use gif::Encoder;
+  |     ^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0277]: the trait bound `std::boxed::Box<[Frame]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:40:1
+   |
+40 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[Frame]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[u16]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u32]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[u8]> as wasm_bindgen::convert::FromWasmAbi>
+             <std::boxed::Box<[wasm_bindgen::JsValue]> as wasm_bindgen::convert::FromWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<Frame>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 20:22:34.580 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `u32: std::io::Write` is not satisfied
+  --> src/lib.rs:54:23
+   |
+54 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                       ^^^^^^^^^^^^ the trait `std::io::Write` is not implemented for `u32`
+   |
+   = note: required because of the requirements on the impl of `std::io::Write` for `&mut u32`
+   = note: required by `<gif::Encoder<W>>::new`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 20:23:55.740 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0308]: mismatched types
+  --> src/lib.rs:42:68
+   |
+42 |   pub fn encode_gif(width: u16, height: u16, frames: Vec<u8>) -> u32 {
+   |  ____________________________________________________________________^
+43 | |     // 获取每一帧的数据
+44 | |
+45 | |     // 转化为Frame对象
+...  |
+60 | | //    });
+61 | | }
+   | |_^ expected u32, found ()
+   |
+   = note: expected type `u32`
+              found type `()`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 18 20:24:15.921 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0658]: The `!` type is experimental (see issue #35121)
+  --> src/lib.rs:42:64
+   |
+42 | pub fn encode_gif(width: u16, height: u16, frames: Vec<u8>) -> ! {
+   |                                                                ^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0658`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:28:43.836 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:7:5
+  |
+7 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0502]: cannot borrow `image` as immutable because it is also borrowed as mutable
+  --> src/lib.rs:47:12
+   |
+44 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- mutable borrow occurs here
+...
+47 |     return image.clone();
+   |            ^^^^^ immutable borrow occurs here
+48 | }
+   | - mutable borrow ends here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0502`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:29:11.860 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `&std::vec::Vec<_>: std::io::Write` is not satisfied
+  --> src/lib.rs:43:23
+   |
+43 |     let mut encoder = Encoder::new(&image, width, height, &[]).unwrap();
+   |                       ^^^^^^^^^^^^ the trait `std::io::Write` is not implemented for `&std::vec::Vec<_>`
+   |
+   = help: the following implementations were found:
+             <std::vec::Vec<u8> as std::io::Write>
+   = note: required by `<gif::Encoder<W>>::new`
+
+error[E0277]: the trait bound `&std::vec::Vec<_>: std::io::Write` is not satisfied
+  --> src/lib.rs:43:23
+   |
+43 |     let mut encoder = Encoder::new(&image, width, height, &[]).unwrap();
+   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `std::io::Write` is not implemented for `&std::vec::Vec<_>`
+   |
+   = help: the following implementations were found:
+             <std::vec::Vec<u8> as std::io::Write>
+   = note: required by `gif::Encoder`
+
+error[E0277]: the trait bound `&std::vec::Vec<_>: std::io::Write` is not satisfied
+  --> src/lib.rs:43:23
+   |
+43 |     let mut encoder = Encoder::new(&image, width, height, &[]).unwrap();
+   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `std::io::Write` is not implemented for `&std::vec::Vec<_>`
+   |
+   = help: the following implementations were found:
+             <std::vec::Vec<u8> as std::io::Write>
+   = note: required by `gif::Encoder`
+
+error[E0599]: no method named `write_frame` found for type `gif::Encoder<&std::vec::Vec<_>>` in the current scope
+  --> src/lib.rs:45:13
+   |
+45 |     encoder.write_frame(&frame).unwrap();
+   |             ^^^^^^^^^^^
+   |
+   = note: the method `write_frame` exists but the following trait bounds were not satisfied:
+           `&std::vec::Vec<_> : std::io::Write`
+
+error: aborting due to 4 previous errors
+
+Some errors occurred: E0277, E0599.
+For more information about an error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:29:44.658 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0505]: cannot move out of `image` because it is borrowed
+  --> src/lib.rs:46:12
+   |
+43 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- borrow of `image` occurs here
+...
+46 |     return image;
+   |            ^^^^^ move out of `image` occurs here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0505`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:30:03.407 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0502]: cannot borrow `image` as immutable because it is also borrowed as mutable
+  --> src/lib.rs:46:12
+   |
+43 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- mutable borrow occurs here
+...
+46 |     return image.clone();
+   |            ^^^^^ immutable borrow occurs here
+47 | }
+   | - mutable borrow ends here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0502`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:32:14.629 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0505]: cannot move out of `image` because it is borrowed
+  --> src/lib.rs:46:9
+   |
+43 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- borrow of `image` occurs here
+...
+46 |     let mut image1 = image;
+   |         ^^^^^^^^^^ move out of `image` occurs here
+
+warning: variable does not need to be mutable
+  --> src/lib.rs:46:9
+   |
+46 |     let mut image1 = image;
+   |         ----^^^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: #[warn(unused_mut)] on by default
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0505`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:32:38.374 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0505]: cannot move out of `image` because it is borrowed
+  --> src/lib.rs:46:10
+   |
+43 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- borrow of `image` occurs here
+...
+46 |     let  image1 = image;
+   |          ^^^^^^ move out of `image` occurs here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0505`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:32:56.935 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0382]: use of moved value: `image`
+  --> src/lib.rs:46:10
+   |
+43 |     let mut encoder = Encoder::new(image, width, height, &[]).unwrap();
+   |                                    ----- value moved here
+...
+46 |     let  image1 = image;
+   |          ^^^^^^ value used here after move
+   |
+   = note: move occurs because `image` has type `std::vec::Vec<u8>`, which does not implement the `Copy` trait
+
+warning: variable does not need to be mutable
+  --> src/lib.rs:42:9
+   |
+42 |     let mut image = Vec::new();
+   |         ----^^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: #[warn(unused_mut)] on by default
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0382`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:39:03.600 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0308]: mismatched types
+  |
+  = note: expected type `std::vec::Vec<u8>`
+             found type `std::fs::File`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:44:30.309 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:4:5
+  |
+4 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0308]: mismatched types
+  --> src/lib.rs:48:12
+   |
+48 |     return 1
+   |            ^ expected struct `std::vec::Vec`, found integral variable
+   |
+   = note: expected type `std::vec::Vec<u8>`
+              found type `{integer}`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 15:44:43.815 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error: cannot find macro `Vec!` in this scope
+  --> src/lib.rs:48:12
+   |
+48 |     return Vec![1]
+   |            ^^^ help: you could try the macro: `vec`
+
+error: aborting due to previous error
+
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:31:19.194 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:4:5
+  |
+4 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0616]: field `w` of struct `gif::Encoder` is private
+  --> src/lib.rs:48:13
+   |
+48 |     return *(encoder.w)
+   |             ^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0616`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:33:17.709 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:4:5
+  |
+4 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0599]: no method named `get_bytes_array` found for type `gif::Encoder<&mut std::vec::Vec<u8>>` in the current scope
+  --> src/lib.rs:48:22
+   |
+48 |     return *(encoder.get_bytes_array())
+   |                      ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:35:19.435 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `std::fs::File`
+ --> src/lib.rs:4:5
+  |
+4 | use std::fs::File;
+  |     ^^^^^^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0599]: no method named `get_bytes_array` found for type `gif::Encoder<&mut std::vec::Vec<u8>>` in the current scope
+  --> src/lib.rs:49:22
+   |
+49 |     return *(encoder.get_bytes_array())
+   |                      ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:35:28.613 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0599]: no method named `get_bytes_array` found for type `gif::Encoder<&mut std::vec::Vec<u8>>` in the current scope
+  --> src/lib.rs:48:22
+   |
+48 |     return *(encoder.get_bytes_array())
+   |                      ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:38:04.787 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0599]: no method named `get_bytes_array` found for type `gif::Encoder<&mut std::vec::Vec<u8>>` in the current scope
+  --> src/lib.rs:48:22
+   |
+48 |     return *(encoder.get_bytes_array())
+   |                      ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:38:30.561 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0599]: no method named `get_bytes_array` found for type `gif::Encoder<&mut std::vec::Vec<u8>>` in the current scope
+  --> src/lib.rs:48:22
+   |
+48 |     return *(encoder.get_bytes_array())
+   |                      ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:40:18.252 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0599]: no method named `get_bytes_array` found for type `gif::Encoder<&mut std::vec::Vec<u8>>` in the current scope
+  --> src/lib.rs:48:22
+   |
+48 |     return *(encoder.get_bytes_array())
+   |                      ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:40:46.719 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0599]: no method named `get_bytes_array` found for type `gif::Encoder<&mut std::vec::Vec<u8>>` in the current scope
+  --> src/lib.rs:48:22
+   |
+48 |     return *(encoder.get_bytes_array())
+   |                      ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0599`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:42:09.937 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0505]: cannot move out of `image` because it is borrowed
+  --> src/lib.rs:48:12
+   |
+45 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- borrow of `image` occurs here
+...
+48 |     return image
+   |            ^^^^^ move out of `image` occurs here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0505`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:42:30.032 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0502]: cannot borrow `image` as immutable because it is also borrowed as mutable
+  --> src/lib.rs:48:12
+   |
+45 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- mutable borrow occurs here
+...
+48 |     return image.clone()
+   |            ^^^^^ immutable borrow occurs here
+49 | }
+   | - mutable borrow ends here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0502`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:44:42.155 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0505]: cannot move out of `image` because it is borrowed
+  --> src/lib.rs:48:12
+   |
+45 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- borrow of `image` occurs here
+...
+48 |     return image
+   |            ^^^^^ move out of `image` occurs here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0505`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:45:28.862 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0505]: cannot move out of `image` because it is borrowed
+  --> src/lib.rs:48:12
+   |
+45 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- borrow of `image` occurs here
+...
+48 |     return image
+   |            ^^^^^ move out of `image` occurs here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0505`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:54:28.378 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0425]: cannot find value `unsize` in this scope
+  --> src/lib.rs:42:59
+   |
+42 | pub fn encode_gif(width: u16, height: u16, one_frame: [u8;unsize]) -> Vec<u8> {
+   |                                                           ^^^^^^ not found in this scope
+
+error[E0277]: the trait bound `[u8; _]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:41:1
+   |
+41 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; _]`
+
+error: aborting due to 2 previous errors
+
+Some errors occurred: E0277, E0425.
+For more information about an error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 16:54:42.678 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `[u8]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+  --> src/lib.rs:41:1
+   |
+41 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8]`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:08:21.925 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0308]: mismatched types
+  --> src/lib.rs:47:58
+   |
+47 |         let frame = gif::Frame::from_rgba(width, height, &one_frame);
+   |                                                          ^^^^^^^^^^ types differ in mutability
+   |
+   = note: expected type `&mut [u8]`
+              found type `&std::vec::Vec<u8>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:23:42.922 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0255]: the name `Frame` is defined multiple times
+  --> src/lib.rs:43:1
+   |
+6  | use gif::{Encoder, Frame};
+   |                    ----- previous import of the type `Frame` here
+...
+43 | pub struct Frame {
+   | ^^^^^^^^^^^^^^^^ `Frame` redefined here
+   |
+   = note: `Frame` must be defined only once in the type namespace of this module
+help: You can use `as` to change the binding name of the import
+   |
+6  | use gif::{Encoder, Frame as OtherFrame};
+   |                    ^^^^^^^^^^^^^^^^^^^
+
+error[E0433]: failed to resolve. Use of undeclared type or module `color_quant`
+  --> src/lib.rs:31:14
+   |
+31 |     let nq = color_quant::NeuQuant::new(1, 256, pixels);
+   |              ^^^^^^^^^^^ Use of undeclared type or module `color_quant`
+
+error[E0433]: failed to resolve. Use of undeclared type or module `Cow`
+  --> src/lib.rs:32:20
+   |
+32 |     frame.buffer = Cow::Owned(pixels.chunks(4).map(|pix| nq.index_of(pix) as u8).collect());
+   |                    ^^^ Use of undeclared type or module `Cow`
+
+error[E0106]: missing lifetime specifier
+  --> src/lib.rs:43:12
+   |
+43 | pub struct Frame {
+   |            ^^^^^ expected lifetime parameter
+
+error[E0106]: missing lifetime specifier
+  --> src/lib.rs:50:6
+   |
+50 | impl Frame {
+   |      ^^^^^ expected lifetime parameter
+
+error[E0106]: missing lifetime specifier
+  --> src/lib.rs:51:61
+   |
+51 |     pub fn new(width: u16, height: u16, pixels: Vec<u8>) -> Frame {
+   |                                                             ^^^^^ expected lifetime parameter
+   |
+   = help: this function's return type contains a borrowed value with an elided lifetime, but the lifetime cannot be derived from the arguments
+   = help: consider giving it an explicit bounded or 'static lifetime
+
+error: aborting due to 6 previous errors
+
+Some errors occurred: E0106, E0255, E0433.
+For more information about an error, try `rustc --explain E0106`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:24:15.088 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0255]: the name `Frame` is defined multiple times
+  --> src/lib.rs:43:1
+   |
+6  | use gif::{Encoder, Frame};
+   |                    ----- previous import of the type `Frame` here
+...
+43 | pub struct Frame {
+   | ^^^^^^^^^^^^^^^^ `Frame` redefined here
+   |
+   = note: `Frame` must be defined only once in the type namespace of this module
+help: You can use `as` to change the binding name of the import
+   |
+6  | use gif::{Encoder, Frame as OtherFrame};
+   |                    ^^^^^^^^^^^^^^^^^^^
+
+error[E0433]: failed to resolve. Use of undeclared type or module `color_quant`
+  --> src/lib.rs:31:14
+   |
+31 |     let nq = color_quant::NeuQuant::new(1, 256, pixels);
+   |              ^^^^^^^^^^^ Use of undeclared type or module `color_quant`
+
+error[E0433]: failed to resolve. Use of undeclared type or module `Cow`
+  --> src/lib.rs:32:20
+   |
+32 |     frame.buffer = Cow::Owned(pixels.chunks(4).map(|pix| nq.index_of(pix) as u8).collect());
+   |                    ^^^ Use of undeclared type or module `Cow`
+
+error[E0106]: missing lifetime specifier
+  --> src/lib.rs:43:12
+   |
+43 | pub struct Frame {
+   |            ^^^^^ expected lifetime parameter
+
+error: aborting due to 4 previous errors
+
+Some errors occurred: E0106, E0255, E0433.
+For more information about an error, try `rustc --explain E0106`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:24:41.985 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0255]: the name `Frame` is defined multiple times
+  --> src/lib.rs:45:1
+   |
+8  | use gif::{Encoder, Frame};
+   |                    ----- previous import of the type `Frame` here
+...
+45 | pub struct Frame {
+   | ^^^^^^^^^^^^^^^^ `Frame` redefined here
+   |
+   = note: `Frame` must be defined only once in the type namespace of this module
+help: You can use `as` to change the binding name of the import
+   |
+8  | use gif::{Encoder, Frame as OtherFrame};
+   |                    ^^^^^^^^^^^^^^^^^^^
+
+error[E0433]: failed to resolve. Use of undeclared type or module `color_quant`
+  --> src/lib.rs:33:14
+   |
+33 |     let nq = color_quant::NeuQuant::new(1, 256, pixels);
+   |              ^^^^^^^^^^^ Use of undeclared type or module `color_quant`
+
+warning: unused import: `std::mem`
+ --> src/lib.rs:4:5
+  |
+4 | use std::mem;
+  |     ^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0106]: missing lifetime specifier
+  --> src/lib.rs:45:12
+   |
+45 | pub struct Frame {
+   |            ^^^^^ expected lifetime parameter
+
+error: aborting due to 3 previous errors
+
+Some errors occurred: E0106, E0255, E0433.
+For more information about an error, try `rustc --explain E0106`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:25:07.125 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0433]: failed to resolve. Use of undeclared type or module `color_quant`
+  --> src/lib.rs:33:14
+   |
+33 |     let nq = color_quant::NeuQuant::new(1, 256, pixels);
+   |              ^^^^^^^^^^^ Use of undeclared type or module `color_quant`
+
+warning: unused import: `std::mem`
+ --> src/lib.rs:4:5
+  |
+4 | use std::mem;
+  |     ^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0433`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:26:37.761 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+warning: unused import: `std::mem`
+ --> src/lib.rs:4:5
+  |
+4 | use std::mem;
+  |     ^^^^^^^^
+  |
+  = note: #[warn(unused_imports)] on by default
+
+error[E0308]: mismatched types
+  --> src/lib.rs:33:49
+   |
+33 |     let nq = color_quant::NeuQuant::new(1, 256, pixels);
+   |                                                 ^^^^^^
+   |                                                 |
+   |                                                 expected &[u8], found struct `std::vec::Vec`
+   |                                                 help: consider borrowing here: `&pixels`
+   |
+   = note: expected type `&[u8]`
+              found type `std::vec::Vec<u8>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:43:32.646 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0425]: cannot find value `v` in this scope
+  --> src/lib.rs:35:28
+   |
+35 |         rgb_pixels.extend([v[0], v[1], v[2]].iter().cloned())
+   |                            ^ did you mean `i`?
+
+error[E0425]: cannot find value `v` in this scope
+  --> src/lib.rs:35:34
+   |
+35 |         rgb_pixels.extend([v[0], v[1], v[2]].iter().cloned())
+   |                                  ^ did you mean `i`?
+
+error[E0425]: cannot find value `v` in this scope
+  --> src/lib.rs:35:40
+   |
+35 |         rgb_pixels.extend([v[0], v[1], v[2]].iter().cloned())
+   |                                        ^ did you mean `i`?
+
+error[E0425]: cannot find value `one_frame` in this scope
+  --> src/lib.rs:46:58
+   |
+46 |         let frame = gif::Frame::from_rgb(width, height, &one_frame);
+   |                                                          ^^^^^^^^^ not found in this scope
+
+error[E0277]: the trait bound `std::vec::Vec<std::vec::Vec<u8>>: std::iter::Extend<&u8>` is not satisfied
+  --> src/lib.rs:27:13
+   |
+27 |         res.extend(rgba2rgb(v).iter().clone())
+   |             ^^^^^^ the trait `std::iter::Extend<&u8>` is not implemented for `std::vec::Vec<std::vec::Vec<u8>>`
+   |
+   = help: the following implementations were found:
+             <std::vec::Vec<T> as std::iter::Extend<&'a T>>
+             <std::vec::Vec<T> as std::iter::Extend<T>>
+
+error: aborting due to 5 previous errors
+
+Some errors occurred: E0277, E0425.
+For more information about an error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:43:44.259 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0425]: cannot find value `one_frame` in this scope
+  --> src/lib.rs:46:58
+   |
+46 |         let frame = gif::Frame::from_rgb(width, height, &one_frame);
+   |                                                          ^^^^^^^^^ not found in this scope
+
+error[E0277]: the trait bound `std::vec::Vec<std::vec::Vec<u8>>: std::iter::Extend<&u8>` is not satisfied
+  --> src/lib.rs:27:13
+   |
+27 |         res.extend(rgba2rgb(v).iter().clone())
+   |             ^^^^^^ the trait `std::iter::Extend<&u8>` is not implemented for `std::vec::Vec<std::vec::Vec<u8>>`
+   |
+   = help: the following implementations were found:
+             <std::vec::Vec<T> as std::iter::Extend<&'a T>>
+             <std::vec::Vec<T> as std::iter::Extend<T>>
+
+error: aborting due to 2 previous errors
+
+Some errors occurred: E0277, E0425.
+For more information about an error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:44:00.180 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::vec::Vec<std::vec::Vec<u8>>: std::iter::Extend<&u8>` is not satisfied
+  --> src/lib.rs:27:13
+   |
+27 |         res.extend(rgba2rgb(v).iter().clone())
+   |             ^^^^^^ the trait `std::iter::Extend<&u8>` is not implemented for `std::vec::Vec<std::vec::Vec<u8>>`
+   |
+   = help: the following implementations were found:
+             <std::vec::Vec<T> as std::iter::Extend<&'a T>>
+             <std::vec::Vec<T> as std::iter::Extend<T>>
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:44:37.312 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0308]: mismatched types
+  --> src/lib.rs:29:5
+   |
+22 | fn frames_array2frames(width: u16, height: u16, frames_array: Vec<u8>) -> Vec<Vec<u8>> {
+   |                                                                           ------------ expected `std::vec::Vec<std::vec::Vec<u8>>` because of return type
+...
+29 |     res
+   |     ^^^ expected struct `std::vec::Vec`, found u8
+   |
+   = note: expected type `std::vec::Vec<std::vec::Vec<u8>>`
+              found type `std::vec::Vec<u8>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:54:07.290 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error: can only #[wasm_bindgen] public functions
+  --> src/lib.rs:22:1
+   |
+22 | / fn frames_array2frames(width: u16, height: u16, frames_array: Vec<u8>) -> Vec<Vec<u8>> {
+23 | |     let chunk_size = width as usize * height as usize * 4;
+24 | |
+25 | |     let mut res = Vec::new();
+...  |
+29 | |     res
+30 | | }
+   | |_^
+
+error: can only #[wasm_bindgen] public functions
+  --> src/lib.rs:33:1
+   |
+33 | / fn rgba2rgb(pixels: &[u8]) -> Vec<u8> {
+34 | |     let mut rgb_pixels: Vec<u8> = Vec::new();
+35 | |     for v in pixels.chunks(4) {
+36 | |         rgb_pixels.extend([v[0], v[1], v[2]].iter().cloned())
+37 | |     }
+38 | |     rgb_pixels
+39 | | }
+   | |_^
+
+error: aborting due to 2 previous errors
+
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:54:26.830 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0505]: cannot move out of `image` because it is borrowed
+  --> src/lib.rs:49:12
+   |
+43 |     let mut encoder = Encoder::new(&mut image, width, height, &[]).unwrap();
+   |                                         ----- borrow of `image` occurs here
+...
+49 |     return image;
+   |            ^^^^^ move out of `image` occurs here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0505`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 17:54:37.262 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0425]: cannot find value `encoder` in this scope
+  --> src/lib.rs:49:9
+   |
+49 |         encoder.write_frame(&frame).unwrap();
+   |         ^^^^^^^ not found in this scope
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0425`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 18:16:29.330 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::boxed::Box<[std::vec::Vec<u8>]>: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+  --> src/lib.rs:20:1
+   |
+20 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `std::boxed::Box<[std::vec::Vec<u8>]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[f32]> as wasm_bindgen::convert::IntoWasmAbi>
+             <std::boxed::Box<[i16]> as wasm_bindgen::convert::IntoWasmAbi>
+             <std::boxed::Box<[i32]> as wasm_bindgen::convert::IntoWasmAbi>
+             <std::boxed::Box<[i8]> as wasm_bindgen::convert::IntoWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::IntoWasmAbi` for `std::vec::Vec<std::vec::Vec<u8>>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
+Oct 22 19:17:12.276 ERRO Compilation of your program failed. stderr:
+
+   Compiling wasm-gif v0.1.0 (/Users/mayne/workspace/wasm-gif)
+error[E0277]: the trait bound `std::boxed::Box<[std::string::String]>: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+  --> src/lib.rs:40:1
+   |
+40 | #[wasm_bindgen]
+   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `std::boxed::Box<[std::string::String]>`
+   |
+   = help: the following implementations were found:
+             <std::boxed::Box<[f32]> as wasm_bindgen::convert::IntoWasmAbi>
+             <std::boxed::Box<[i16]> as wasm_bindgen::convert::IntoWasmAbi>
+             <std::boxed::Box<[i32]> as wasm_bindgen::convert::IntoWasmAbi>
+             <std::boxed::Box<[i8]> as wasm_bindgen::convert::IntoWasmAbi>
+           and 7 others
+   = note: required because of the requirements on the impl of `wasm_bindgen::convert::IntoWasmAbi` for `std::vec::Vec<std::string::String>`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+error: Could not compile `wasm-gif`.
+
+To learn more, run the command again with --verbose.
+
